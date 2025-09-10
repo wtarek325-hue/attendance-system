@@ -30,8 +30,8 @@ function logout() {
 
 // -------------------------
 // Google Sheets API
-// ضع هنا رابط Google Sheet العام
-const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1bpAP3pTv1xI3yciKxtPUxGIBFy6D9kHOghuYV-thM7c/edit?usp=sharing';
+// هذا الرابط صالح للقراءة من شيتك
+const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1bpAP3pTv1xI3yciKxtPUxGIBFy6D9kHOghuYV-thM7c/pubhtml';
 
 // تحميل البيانات من Google Sheets
 let employeesData = [];
